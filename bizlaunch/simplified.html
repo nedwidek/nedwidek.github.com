@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Jquery Mobile Splitview</title> 
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.0a4.1.css" />
+	<link rel="stylesheet" href="jquery.mobile.splitview.css" />
+  <link rel="stylesheet"  href="jquery.mobile.scrollview.css" />
+  <link rel="stylesheet"  href="jquery.mobile.grids.collapsible.css" />
+  
+</head> 
+
+  <body> 
+
+    <div data-role="panel" data-id="menu" data-hash="crumbs" data-context="a#default">
+      <!-- Start of first page -->
+      <div data-role="page" id="main">
+
+      	<div data-role="header" data-backbtn="false" >
+      		<h2>Businesses</h2>
+      	</div><!-- /header -->
+
+      	<div data-role="content">	
+     		<ul data-role="listview" data-theme="g">
+          		<li><a href="#hatterasSoftware" data-panel="main">Hatteras Software</a></li>
+          	</ul>
+      	</div><!-- /content -->
+      </div><!-- /page -->
+    </div><!-- panel menu -->
+
+	<div data-role="panel" data-id="main">
+      <!-- Start of 6th page -->
+      <div data-role="page" id="hatterasSoftware">
+
+        <div data-role="header">
+          <h1>Hatteras Software</h1>
+        </div><!-- /header -->
+
+        <div data-role="content"> 
+			<p>Hatteras Software is a division of Lighthouse IT Consulting. The founder, Erik Nedwidek, has been 
+			programming for 27 years and spent 12 years at IBM as a software engineer and architect.</p>
+			<p>Hatteras Software specializes in custom software to power your business.</p>
+			<p>Mobile Devices:
+			<ul>
+			<li>iPhone and iPad Applications</li>
+			<li>Android Applications - Google Android powers Motorola Droids, HTC Evo, and many other phones.</li>
+			<li>Blackberry OS</li>
+			<li>Palm WebOS</li>
+			<li>Cross Platform development - Unlike many of our competitors, Hatteras Software specializes in writing
+			an application once and deploying to multiple platforms.
+			</ul></p>
+			<p>Desktop Applications - Need an application for your desktop systems? Hatteras Software develops
+			applications with MS .Net and Java</p>
+			<p>Web Applications - Hatteras Software can create a full web application for your business, create or 
+			extend Wordpress plugins, etc.</p>
+			<p><b></b><a rel="external" href="http://www.HatterasSoftware.com/">Visit Website</a></b></p>		          	
+        </div><!-- /content -->
+      </div><!-- /page -->
+    </div><!-- panel main -->
+
+
+  </body>
+  <script type="text/javascript" src="jquery-1.5.2.min.js"></script>
+  <script type="text/javascript" src="jquery.mobile.splitview.js"></script>
+  <script type="text/javascript" src="jquery.mobile-1.0a4.1.js"></script>
+  <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="jquery.mobile.scrollview.js"></script>
+</html>
